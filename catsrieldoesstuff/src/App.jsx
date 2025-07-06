@@ -1,9 +1,10 @@
 import { useState } from 'react'
-import PageHeader from './Header'
+
+import MainPage from './mainpage'
 
 function App() {
-  return (
-    <PageHeader></PageHeader>
+  return(
+    <MainPage></MainPage>
   )
 }
 

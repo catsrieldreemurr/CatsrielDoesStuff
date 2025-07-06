@@ -1,7 +1,14 @@
 body{
   padding: 0;
   margin: 0;
-  background-color: #DDE6ED
+  background-color: #DDE6ED;
+  background-image: url(./assets/test_bg2.png);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: ubuntu;
+  color: white;
 }
 
 .HeaderBox{
@@ -14,9 +21,30 @@ body{
   padding: 0;
 }
 
+.mainTop{
+  margin: 0 auto;
+
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+
+  width: 30%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
 
 @media only screen and (max-width: 767px) {
   nav img{
     width: 150px;
   }
+
+  body{
+    background-position: 20% 0%;
+    background-size: auto;
+  }
+
+  .mainTop{
+    width: 80%;
+  }
 }
+
