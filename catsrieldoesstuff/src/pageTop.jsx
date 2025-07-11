@@ -1,12 +1,10 @@
 import React from "react";
+import finishedpostit from "./assets/finishedpostit.png"
 
-function MainTop(){
+function MainImage(){
     return(
-        <div className="mainTop">
-            <h1>Fern Baxter</h1>
-            <p>Your local Silly Person</p>
-        </div>
+        <img src={finishedpostit} className="mainImage"></img>
     )
 }
 
-export default MainTop;
+export default MainImage;

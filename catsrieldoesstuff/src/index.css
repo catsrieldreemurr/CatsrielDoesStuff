@@ -2,10 +2,10 @@ body{
   padding: 0;
   margin: 0;
   background-color: #DDE6ED;
-  background-image: url(./assets/test_bg2.png);
+  background-image: url(./assets/test_bg.png);
 
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 120%;
 
   font-family: ubuntu;
   color: white;
@@ -21,16 +21,11 @@ body{
   padding: 0;
 }
 
-.mainTop{
-  margin: 0 auto;
-
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-
+.mainImage{
   width: 30%;
-  border-radius: 5px;
-  margin-top: 10px;
+  margin: 0 auto;
+  padding-top: 5%;
+  display: block;
 }
 
 @media only screen and (max-width: 767px) {
@@ -43,7 +38,7 @@ body{
     background-size: auto;
   }
 
-  .mainTop{
+  .mainImage{
     width: 80%;
   }
 }

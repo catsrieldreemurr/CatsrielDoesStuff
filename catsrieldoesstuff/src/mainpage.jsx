@@ -1,12 +1,12 @@
 import React from "react";
 import PageHeader from './Header'
-import MainTop from "./pageTop";
+import MainImage from "./pageTop";
 
 function MainPage(){
     return(
         <div>
             <PageHeader></PageHeader>
-            <MainTop></MainTop>
+            <MainImage></MainImage>
         </div>
     )
 }
